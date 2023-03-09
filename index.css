@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+body {
+    background-color: #2B2D42;
+}
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.6 rem;
+    color: #FF5757;
+}
+a:hover {
+    color: #2B2D42;
+}
+.hero {
+    height: 900px;
+    width: auto;
+    max-width: 1000px;
+}
+.highlighted-red {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25 rem;
+    color: #FF5757;
+    margin: 0px;
+}
+.name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3 rem;
+    line-height: 3 rem;
+
+    color: #F8F9FA;
+}
+.bio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25 rem;
+    line-height: 1.25 rem;
+
+    color: #F8F9FA;
+}
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #2B2D42;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+
+    background-color: transparent;
+    border: 3px solid #FF5757;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25 rem;
+    line-height: 23px;
+    color: #FF5757;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #2B2D42
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background: #2B2D42;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.glow-on-hover2 {
+    width: 90px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #F8F9FA;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+
+
+    background-color: transparent;
+    border: 3px solid #FF5757;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25 rem;
+    line-height: 23px;
+    color: #FF5757;
+}
+
+.glow-on-hover2:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover2:active {
+    color: #F8F9FA;
+}
+
+.glow-on-hover2:active:after {
+    background: transparent;
+}
+
+.glow-on-hover2:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover2:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    background: #F8F9FA;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.image {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+}
+.section-header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.25 rem;
+    line-height: 2.5 rem;
+    color: #F8F9FA;
+}
+/* .about-section {
+    height: 800px;
+} */
+
+.about-me {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1 rem;
+    line-height: 1.25 rem;
+
+    color: #F8F9FA;
+}
+
+li{
+    list-style-image:URL('./assets/ArrowRight.png');
+    list-style-position: inside;
+}
+.work-img-src {
+    max-width: 400px;
+    border-radius: 10px;
+}
+.work-img {
+    max-width: 400px;
+    border-radius: 10px;
+    position: relative;
+}
+.work-img::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    background-color: #FF5757;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    border-radius: 10px;
+}
+.work-img:hover::before{
+    opacity: 0;
+}
+.work-tag {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875 rem;
+    margin: 0px;
+    color: #FF5757;
+}
+.work-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5 rem;
+
+    color: #F8F9FA;
+}
+.work-content {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1 rem;
+
+    color: #F8F9FA;
+}
+.work-muted {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875 rem;
+
+    color: #8D99AE;
+}
+.work-link {
+    text-decoration: none;
+    font-size: 1.6 rem;
+    color: #2B2D42;
+}
+.work-link:hover {
+    color: #FF5757;
+}
+/* .blog-section {
+    height: 800px;
+} */
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+}
+.blog-card {
+    width: 280px;
+    margin: 20px;
+    background-color: #8D99AE;
+}
+.blog-img {
+    height: 200px;
+}
+.blog-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5 rem;
+    color: #2B2D42;
+}
+.blog-content {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+
+    color: #2B2D42;
+}
+.blog-link {
+    text-decoration: none;
+    font-size: 1.6 rem;
+    color: #2B2D42;
+    list-style-image:URL('./assets/ArrowRight.png');
+    list-style-position: inside;
+}
+i {
+    font-size: 1 rem;
+    padding-left: 5px;
+}
+.blog-link:hover {
+    color: #F8F9FA;
+}
+.contact-section {
+    height: 80vh;
+}
+.contact-div {
+    width: 500px;
+}
+.contact {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25 rem;
+    line-height: 1.875 rem;
+
+    color: #F8F9FA;
+}
+.footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875 rem;
+    line-height: 16px;
+
+    color: #F8F9FA;
+
+}
+.button-76 {
+    --offset: 50px; 
+  
+    position: sticky;
+    bottom: 25px;
+    margin-left:10px; 
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+
+    background-color: #ffffff;
+    border: 2px solid #422800;
+    border-radius: 10px;
+    box-shadow: #420000 4px 4px 0 0;
+    color: #140e0e;
+    cursor: pointer;
+    /* display: inline-block; */
+    font-weight: 600;
+    font-size: 20px;
+    /* padding: 0 18px; */
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+  }
+  
+  .button-76:hover {
+    background-color: #fff;
+  }
+  
+  .button-76:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }

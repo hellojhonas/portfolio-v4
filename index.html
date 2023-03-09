@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+
+    <link rel="stylesheet" href="./cursor.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&amp;display=swap'>
+
+    <title>Jhonas</title>
+</head>
+<body>
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-expand-md">
+                    <div class="container ">
+                        <a class="navbar-brand" href="index.html"><img src="./assets/logo.png" height="60"alt="Jhonas"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="mx-3" href="#about">About</a>
+                            <a class="mx-3" href="#works">Works</a>
+                            <a class="mx-3" href="#blogs">Blogs</a>
+                            <button class="glow-on-hover2 align-self-center mx-3" type="button" id="download-resume">Resume</button>
+                        </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <main>
+
+                <div class="row hero justify-content-center align-items-center">
+                    <div class="col-12">
+                        <p class="highlighted-red">Hi, my name is</p>
+                        <h1 class="name">Jhon Brandon Acenas.
+                            I design and develop web projects efficiently.</h1>
+                        <p class="bio">I am a full stack web developer and an aspiring UX designer aiming to build web projects efficiently by utilizing relevant technologies and methodologies appropriate for the project. Currently, I'm adding skills to my arsenal to further improve my workflows and also <span class="highlighted-red"> looking for opportunities</span> to work on projects that provides value to stakeholders and users.</p>
+                        <div>
+                            <button class="glow-on-hover mt-3" type="button" onclick="sendEmail()">Get in Touch</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row about-section justify-content-center align-content-center" id="about">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <h2 class="section-header">About me</h2>
+                        <p class="about-me">Welcome to my portfolio website! Call me Jhonas, and I'm a full-stack web developer and an aspiring UX designer with a passion for creating projects that live on the internet. Upskilling with the latest tech skills and currently taking a professional certification on  UX design by Google, I'm here to help bring your creative ideas to life.
+                        </p>
+                        <p class="about-me">My journey in web development began back in January 2021 when I first started coding with C++ programming. As I explored the technology further, I began building projects and eventually delved into front-end and back-end development. With my experience in web application development, I've successfully built and deployed web apps on the internet.
+                        </p>
+                        <p class="about-me">Now, I offer a comprehensive web development and UX/UI design service where I can apply my skills to develop scalable, tailored, and usable web apps that follow a global standard development and design process.</p>
+                        <p class="about-me">Here are some of the technologies that I've been using recently:</p>
+                        <div class="row about-me">
+                            <div class="col">
+                                <ul>
+                                    <li>JavaScript</li>
+                                    <li>React</li>
+                                    <li>Angular</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <ul>
+                                    <li>Laravel</li>
+                                    <li>MySQL</li>
+                                    <li>WordPress</li>
+                                    <li>Figma</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="work-img col-lg-6 col-md-12 col-sm-12 align-self-center text-center">
+                        <img class="work-img-src" src="./assets/red.png" alt="Jhon Brandon Acenas's Profile">
+                    </div>
+                </div>
+
+                <div class="row my-5 work-section justify-content-center align-items-center" id="works">
+                    <div class="col-lg-6 col-md-12 col-sm-12 order-md-1">
+                        <h2 class="section-header mt-5">Featured Works</h2>
+                        <p class="work-tag">Web Development</p>
+                        <h3 class="work-title">Kodegoers Learning Management System</h3>
+                        <p class="work-content">A dedicated learning management system a imed at providing students with an immersive learning experience. The system's goal is to provide students with an easy-to-use platform for organizing, comprehending, communicating, and applying what they've learned. The project's goal is to make it easier for career shifters and people looking to upskill to work in the technology industry to transition.</p>
+                        <p class="work-muted">Build with React, Custom API, Laravel and MySQL</p>
+                    </div>
+                    <div class="work-img col-lg-6 col-md-12 col-sm-12 order-md-1 text-center">
+                        <img class="work-img-src" src="./assets/kodegoers-work.png" alt="Kodegoers">
+                    </div>
+                </div>
+
+                <div class="row my-5 work-section justify-content-center align-items-center">
+                    <div class="work-img col-lg-6 col-md-12 col-sm-12 order-md-1 order-sm-2 text-center">
+                        <img class="work-img-src" src="./assets/vjherbal-work.png" alt="Kodegoers">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 order-lg-1 text-right">
+                        <p class="work-tag text-lg-end">Web Development</p>
+                        <h3 class="work-title text-lg-end">VJ Herbal</h3>
+                        <p class="work-content text-lg-end">As a pair project requirement of the KodeGo Bootcamp for project two, our primary goal is to utilize our acquired skills in HTML, CSS, and JavaScript to develop an API driven mini web application for a Herbal Seller's Website.</p>
+                        <p class="work-muted text-lg-end">Build with Bootstrap, JavaScript, and News.api</p>
+                    </div>
+                </div>
+
+                <div class="row my-5 work-section justify-content-center align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 order-md-1">
+                        <p class="work-tag">UX Design</p>
+                        <h3 class="work-title">Cordillera Foods</h3>
+                        <p class="work-content">The restaurant food review app is a tool for food
+                            enthusiasts to discover and share local restaurant
+                            recommendations.</p>
+                        <p class="work-muted">Designed with Figma</p>
+                    </div>
+                    <div class="work-img col-lg-6 col-md-12 col-sm-12 order-md-2 text-center">
+                        <img class="work-img-src" src="./assets/cordillerafoods-work.png" alt="Cordillera Foods">
+                    </div>
+                </div>
+
+                <div class="row my-5 other-prjs d-none align-content-center justify-content-sm-center justify-content-md-center justify-content-lg-between">
+                    <h2 class="section-header mt-5">Other Projects</h2>
+                    <div class="card g-0 blog-card">
+                        <img src="./assets/portfoliov3-work.png" class="card-img-top blog-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="blog-title">Website Portfolio v3</h5>
+                            <p class="blog-content">This is a mini-project as part of the KodeGo Bootcamp that I attented for four months (September-December 2022).</p>
+                            <a href="https://www.notion.so/jhonas/Website-Portfolio-v3-fc544ca4ceab43779616ebf9ea964235?pvs=4" class="" target="_blank">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card g-0 blog-card">
+                        <img src="./assets/kodego-work.png" class="card-img-top blog-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="blog-title">KodeGo Repo</h5>
+                            <p class="blog-content">This is where I compiled most of my works and outputs during my journey with KodeGo to be a fullstack web developer.</p>
+                            <a class="" href="https://medium.com/@jhonacenas0704/ux-design-workflow-as-a-web-developer-232ddde4c422"target="_blank">Read more</a>
+                        </div>
+                    </div>
+                    <div class="card g-0 blog-card">
+                        <img src="./assets/sauceandspoon-work.png" class="card-img-top blog-img" alt="...">
+                        <div class="card-body p-2">
+                            <h5 class="blog-title">Sauce and Spoon: Tablet Roll Out</h5>
+                            <p class="blog-content">This project management aims to help out Sauce and Spoon which wants to meet demand by improving current restaurant operations.</p>
+                            <a href="https://medium.com/@jhonacenas0704/ux-design-workflow-as-a-web-developer-232ddde4c422" class="blog-link" target="_blank">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5 text-center">
+                    <div class="col-12">
+                        <button id="see-more-btn" class="glow-on-hover">See More</button>
+                        <button id="see-less-btn" class="glow-on-hover d-none">See Less</button>
+                    </div>
+                </div>
+
+                <div class="row blog-section align-content-center justify-content-sm-center justify-content-md-center justify-content-lg-around" id="blogs">
+
+                    <h2 class="section-header">Blogs</h2>
+                    <div class="card m-2 g-0 blog-card">
+                        <img src="./assets/guxd-blog.png" class="card-img-top blog-img" alt="...">
+                        <div class="card-body p-2">
+                            <h5 class="blog-title">UX Design Workflow as a Web Developer</h5>
+                            <p class="blog-content">As a full-stack web developer, learning about UX Design has been an interest of mine as it helps me gain a better  ...</p>
+                            <a href="https://medium.com/@jhonacenas0704/ux-design-workflow-as-a-web-developer-232ddde4c422" class="blog-link" target="_blank">Read more<i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card m-2 g-0 blog-card">
+                        <img src="./assets/pm-blog.png" class="card-img-top blog-img" alt="...">
+                        <div class="card-body p-2">
+                            <h5 class="blog-title">Google Project Management Course</h5>
+                            <p class="blog-content">As an aspiring full-stack developer, you are expected to wear many hats and be responsible for all aspects of ...</p>
+                            <a href="https://medium.com/@jhonacenas0704/google-project-management-course-for-web-developers-d5ae1e805679" class="blog-link" target="_blank">Read more<i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="card m-2 g-0 blog-card">
+                        <img src="./assets/gdg-blog.png" class="card-img-top blog-img" alt="...">
+                        <div class="card-body p-2">
+                            <h5 class="blog-title">Google DevFest Baguio: A Newbie&#39;s Experience</h5>
+                            <p class="blog-content">As the Google Developer Group Baguio turns 10, it held its yearly event last November 12, 2022, at the University of the Cordilleras ...</p>
+                            <a href="https://medium.com/@jhonacenas0704/google-devfest-baguio-a-newbies-experience-d6902d6a75de" class="blog-link" target="_blank">Read more<i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>                    
+                    <div class="card m-2 g-0 blog-card">
+                        <img src="./assets/digitaljobs-blog.png" class="card-img-top blog-img" alt="...">
+                        <div class="card-body p-2">
+                            <h5 class="blog-title">DigitalJobsPh Advocacy Workshop</h5>
+                            <p class="blog-content">With the Christmas week that is ongoing, DICT-CAR with Digital jobs Ph has provided an early Christmas present to aspiring freelancers and ...</p>
+                            <a href="https://medium.com/@jhonacenas0704/gaggay-ay-digitaljobsph-advocacy-workshop-447162db7b89" class="blog-link" target="_blank">Read more<i class="bi bi-box-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row contact-section justify-content-center align-content-center text-center">
+                    <div class="contact-div">
+                        <h2 class="section-header mt-3">Contact</h2>
+                        <p class="contact my-3">I'm always on the lookout for exciting new opportunities. If you have a project in mind or simply want to say hi, my inbox is always open, and I'll do my best to respond promptly. Let's connect and see how we can collaborate to bring your vision to life!</p>
+                        <div>
+                            <button class="glow-on-hover mt-3 cursor-hover-item" type="button" onclick="sendEmail()" data-cursor-text="Get in Touch" data-cursor-text-repeat="3">Get in Touch</button>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <div class="cursor">
+        <div class="cursor--small"></div>
+        <div class="cursor--large"></div>
+        <div class="cursor--text">
+            <div class="text">GO HERE! GO HERE! GO HERE! GO HERE!</div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row text-center my-5">
+                <p class="footer">Designed and Developed by Jhon Brandon Acenas ( Jhonas ). All rights reserved 2023</p>
+            </div>
+
+        </div>
+    </div>
+
+    <main>
+        <div class="links">
+            <a class="link cursor-hover-item" href="#" data-cursor-text="GO HERE!" data-cursor-text-repeat="4">Link.</a>
+            <a class="link cursor-hover-item" href="#" data-cursor-text="LEARN MORE!" data-cursor-text-repeat="3">Read
+                More.</a>
+        </div>
+    
+        <div class="socials">
+            <div class="social cursor-hover-item codepen" data-cursor-text="CODEPEN" data-cursor-text-repeat="4">
+                <ion-icon name="logo-codepen"></ion-icon>
+            </div>
+            <div class="social cursor-hover-item youtube" data-cursor-text="YOUTUBE" data-cursor-text-repeat="4">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </div>
+            <div class="social cursor-hover-item dribbble" data-cursor-text="DRIBBBLE" data-cursor-text-repeat="4">
+                <ion-icon name="logo-dribbble"></ion-icon>
+            </div>
+            <div class="social cursor-hover-item twitter" data-cursor-text="TWITTER" data-cursor-text-repeat="4">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+        </div>
+    </main>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script>
+    <script src='https://unpkg.com/ionicons@5.0.0/dist/ionicons.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js'></script>
+
+    <a href="#" class="button-76">&#8593;</a>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="./cursor.js"></script>
+</body>
+</html>
