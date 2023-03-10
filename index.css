@@ -6,7 +6,7 @@ body {
 .navbar a {
     padding: 10px;
     text-decoration: none;
-    font-size: 1.6 rem;
+    font-size: 1.6rem;
     color: #FF5757;
 }
 a:hover {
@@ -21,7 +21,7 @@ a:hover {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
-    font-size: 1.25 rem;
+    font-size: 1rem;
     color: #FF5757;
     margin: 0px;
 }
@@ -29,8 +29,8 @@ a:hover {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 3 rem;
-    line-height: 3 rem;
+    font-size: 3rem;
+    line-height: 4rem;
 
     color: #F8F9FA;
 }
@@ -74,11 +74,10 @@ a:hover {
       width: 100%;
     }
     60% {
-
       width: 100%;
     }
     100% {
-      content: "But you can call me Jhonas";
+      content: "Jhonas for short";
       width: 100%;
     }
 }
@@ -88,8 +87,8 @@ a:hover {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.25 rem;
-    line-height: 1.25 rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
 
     color: #F8F9FA;
 }
@@ -245,8 +244,8 @@ a:hover {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 2.25 rem;
-    line-height: 2.5 rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
     color: #F8F9FA;
 }
 /* .about-section {
@@ -257,8 +256,8 @@ a:hover {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 1 rem;
-    line-height: 1.25 rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
 
     color: #F8F9FA;
 }
@@ -296,7 +295,7 @@ li{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.875 rem;
+    font-size: 0.875rem;
     margin: 0px;
     color: #FF5757;
 }
@@ -304,7 +303,7 @@ li{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
-    font-size: 1.5 rem;
+    font-size: 2rem;
 
     color: #F8F9FA;
 }
@@ -312,7 +311,7 @@ li{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 1 rem;
+    font-size: 1rem;
 
     color: #F8F9FA;
 }
@@ -320,18 +319,18 @@ li{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.875 rem;
+    font-size: 0.875rem;
 
     color: #8D99AE;
 }
 .work-link {
     text-decoration: none;
-    font-size: 1.6 rem;
+    font-size: 1.6rem;
     color: #2B2D42;
 }
 .project-link {
     text-decoration: none;
-    font-size: 1.6 rem;
+    font-size: 1.6rem;
     color: #8D99AE;
     list-style-image:URL('./assets/ArrowRight.png');
     list-style-position: inside;
@@ -362,7 +361,7 @@ li{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     color: #2B2D42;
 }
 .blog-content {
@@ -376,13 +375,13 @@ li{
 }
 .blog-link {
     text-decoration: none;
-    font-size: 1.6 rem;
+    font-size: 0.875rem;
     color: #2B2D42;
     list-style-image:URL('./assets/ArrowRight.png');
     list-style-position: inside;
 }
 i {
-    font-size: 1 rem;
+    font-size: 1rem;
     padding-left: 5px;
 }
 .blog-link:hover {
@@ -398,8 +397,8 @@ i {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.25 rem;
-    line-height: 1.875 rem;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
 
     color: #F8F9FA;
 }
@@ -407,7 +406,7 @@ i {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 0.875 rem;
+    font-size: 0.875rem;
     line-height: 16px;
 
     color: #F8F9FA;
