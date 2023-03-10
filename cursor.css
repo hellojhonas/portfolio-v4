@@ -31,36 +31,14 @@ body {
     transform-origin: left;
     transform: scaleX(1);
 }
-.socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.socials a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #8D99AE;
 }
-.socials .social {
-    --icon-size: 40px;
-    width: var(--icon-size);
-    height: var(--icon-size);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0.5rem;
-    margin: 1.5rem;
-    color: #fff;
-    background: var(--bg);
-}
-.socials .social.codepen {
-    --bg: #000;
-}
-.socials .social.youtube {
-    --bg: #c4302b;
-}
-.socials .social.dribbble {
-    --bg: #ea4c89;
-}
-.socials .social.twitter {
-    --bg: #00acee;
-}
-  
+
 .cursor .cursor--small,
 .cursor .cursor--large,
 .cursor .cursor--text {
