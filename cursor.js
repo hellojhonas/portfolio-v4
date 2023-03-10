@@ -34,16 +34,21 @@ let mouse = {
 
 document.body.addEventListener("pointermove", updateCursorPosition);
 
-// window.addEventListener('scroll', () => {
-//     mouse.y += window.scrollY;
-//   });
+// Check if screen size is smaller than 768px (mobile devices)
+const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
 function updateCursorPosition(e) {
+	// If on mobile, return early
+	if (isMobile) return;
+
 	mouse.x = e.pageX;
 	mouse.y = e.pageY - window.scrollY;
 }
 
 function updateCursor() {
+	// If on mobile, return early
+	if (isMobile) return;
+
 	gsap.set([cursorInner, cursorTextContainerEl], {
 		x: mouse.x,
 		y: mouse.y
@@ -70,6 +75,9 @@ function updateCursor() {
 updateCursor();
 
 function handlePointerEnter(e) {
+	// If on mobile, return early
+	if (isMobile) return;
+
 	isHovered = true;
 
 	const target = e.currentTarget;
@@ -117,6 +125,9 @@ function handlePointerEnter(e) {
 }
 
 function handlePointerLeave() {
+	// If on mobile, return early
+	if (isMobile) return;
+
 	isHovered = false;
 	gsap.to([cursorInner, cursorOuter], hoverEffectDuration, {
 		scale: 1,
@@ -125,6 +136,9 @@ function handlePointerLeave() {
 }
 
 function updateCursorText(textEl) {
+	// If on mobile, return early
+	if (isMobile) return;
+
 	const cursorTextRepeatTimes = textEl.getAttribute("data-cursor-text-repeat");
 	const cursorText = returnMultipleString(
 		textEl.getAttribute("data-cursor-text"),
@@ -138,6 +152,9 @@ function updateCursorText(textEl) {
 }
 
 function returnMultipleString(string, count) {
+	// If on mobile, return early
+	if (isMobile) return;
+	
 	let s = "";
 	for (let i = 0; i < count; i++) {
 		s += ` ${string} `;

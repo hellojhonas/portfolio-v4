@@ -1,6 +1,20 @@
 body {
     cursor: none;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      cursor: default;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body {
+        cursor: default;
+      }
+    .cursor--large,
+    .cursor--small {
+      display: none;
+    }
+}
 .link {
     --color: rgba(255, 255, 255, 0.944);
     position: relative;
