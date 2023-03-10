@@ -53,14 +53,14 @@ a:hover {
     animation: shortenAndChange 16s linear infinite;
 }
 @media screen and (max-width: 768px) {
-    .name {
+    .name, .tagline {
       font-size: 2rem;
       line-height: 2rem;
     }
   }
   
   @media screen and (max-width: 576px) {
-    .name {
+    .name, .tagline {
       font-size: 1.5rem;
       line-height: 1.5rem;
     }
